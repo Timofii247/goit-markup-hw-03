@@ -73,9 +73,7 @@ display: flex;
         gap: 40px;
 }
 
-.header-menu-item-adres{
 
-}
 
 .header-menu-link {
     text-decoration: none;
@@ -390,9 +388,7 @@ margin: 0 auto;
 padding-top: 100px;
 padding-bottom: 100px;
 }
-.footer-logo{
 
-}
 .footer-logo-accent
 {
    
@@ -408,3 +404,4 @@ padding-bottom: 100px;
         color: #f4f4fd;
         margin-top: 16px;
 }
+/* lv */
