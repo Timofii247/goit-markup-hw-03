@@ -205,28 +205,26 @@ padding-bottom: 120px;
 }
 
 .visually-hidden{
-    
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            padding: 0;
-            border: 0;
-            overflow: hidden;
-            clip: rect(0 0 0 0);
-            white-space: nowrap;
-            clip-path: inset(50%);
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden
 }
 
 .features-list{
-  
     display: flex;
     gap: 24px;
  
 }
 
 .features-item{
-width: calc((100% - 72px) / 4);
+width: calc((100% - 3 * 24px) / 4)
 }
 
 .features-subtitle {
@@ -376,6 +374,10 @@ flex-wrap: wrap;
 justify-content: space-between;
 max-width: 1128px;
 margin: 0 auto;
+
+
+/* column-gap: 24px;
+row-gap: 48px; */
 
 }
 
