@@ -62,9 +62,11 @@ display: flex;
 }
 
 .nav-list{
+    
 display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .contact-list{
@@ -151,9 +153,7 @@ margin: 0 auto;
 padding: 188px 0px;
 }
 
-.hero-wrapper{
-   
-}
+
 
 .hero-title {
         font-size: 56px;
@@ -204,7 +204,7 @@ padding-bottom: 120px;
 
 }
 
-.visual-hiden{
+.visually-hidden{
     
             position: absolute;
             width: 1px;
@@ -393,6 +393,8 @@ margin: 0 auto;
 }
 
 .footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
 
     font-weight: 700;
     font-size: 18px;
