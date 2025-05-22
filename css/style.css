@@ -147,11 +147,11 @@ display: flex;
 background: #2e2f42;
 max-width: 1128px;
 margin: 0 auto;
-
+padding: 188px 0px;
 }
 
 .hero-wrapper{
-    padding: 188px 316px 188px 316px;
+   
 }
 
 .hero-title {
