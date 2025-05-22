@@ -58,7 +58,7 @@ display: flex;
 
 .header-logo{
     padding: 24px 0;
-        margin-right: 76px;
+  margin-right: 76px;
 }
 
 .nav-list{
@@ -81,6 +81,7 @@ display: flex;
 }
 
 .logo{
+    padding: 24px 0;
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -176,12 +177,13 @@ margin-bottom: 48px;
         letter-spacing: 0.04em;
         padding: 16px 32px 16px 32px;
         border-radius: 4px;
-        
         outline: none;
         cursor: pointer;
         display: block;
         margin: 0 auto;
-
+min-width: 169px;
+height: 56px;
+border: none;
 }
 .hero-btn:hover {
     background-color: #404bbf;
