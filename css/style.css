@@ -213,7 +213,7 @@ padding-bottom: 120px;
         padding: 0;
         white-space: nowrap;
         clip-path: inset(100%);
-        /* clip: rect(0 0 0 0); */
+        clip: rect(0,0,0,0);
         overflow: hidden
 }
 
@@ -224,7 +224,7 @@ padding-bottom: 120px;
 }
 
 .features-item{
-width: calc((100%-72px)/4);
+width: calc((100% - 74px) / 4);
 }
 
 .features-subtitle {
