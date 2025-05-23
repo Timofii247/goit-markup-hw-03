@@ -364,19 +364,27 @@ font-weight: 500;
     line-height: 1.2;
     color: #2e2f42;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .portfolio-list{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-max-width: 1128px;
-margin: 0 auto;
+
+ display: flex;
+ flex-wrap: wrap;
+justify-content: center;
+column-gap: 24px;
+row-gap: 48px;
+padding: 0;
+list-style: none;
 
 
-/* column-gap: 24px;
-row-gap: 48px; */
 
+}
+.portfolio-container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    box-sizing: border-box;
 }
 
 
