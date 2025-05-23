@@ -224,7 +224,7 @@ padding-bottom: 120px;
 }
 
 .features-item{
-width: calc((100% - 74px) / 4);
+width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
@@ -343,16 +343,13 @@ padding: 0;
 
  .portfolio-section-title{
     font-size: 36px;
-    
-        /* line-height: 40px; */
         line-height: 111%;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
     max-width: 218px;
-    margin-bottom: 72px;
     margin: 0 auto;
-
+margin-bottom: 72px;
  }
 
 .portfolio-title{
