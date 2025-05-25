@@ -12,6 +12,16 @@ ul,ol {
 }
 
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -149,8 +159,7 @@ display: flex;
 
 .hero {
 background: #2e2f42;
-max-width: 1128px;
-margin: 0 auto;
+
 padding: 188px 0px;
 }
 
@@ -273,7 +282,7 @@ width: calc((100% - 72px) / 4);
         text-align: center;
         color: #2e2f42;
         margin: 0 auto;
-        max-width: 162px;
+        /* max-width: 162px; */
         margin-bottom: 72px;
 
 
@@ -345,7 +354,7 @@ padding: 0;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-    max-width: 218px;
+    /* max-width: 218px; */
     margin: 0 auto;
 margin-bottom: 72px;
  }
@@ -386,7 +395,6 @@ list-style: none;
 .portfolio-card{
     display: block;
     background-color: #fff;
-    width: 360px;
     margin-top: 72px;
     margin-bottom: 48px;
 }
@@ -396,9 +404,9 @@ list-style: none;
 }
 
 .footer-logo{
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
     margin-bottom: 16px;
-
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -426,7 +434,7 @@ padding-bottom: 100px;
 
 .footer-logo-accent
 {
-   
+font-family: 'Roboto', sans-serif;
         color: #f4f4fd;
 }
 
@@ -438,5 +446,6 @@ padding-bottom: 100px;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         margin-top: 16px;
+        max-width: 264px;
 }
 /* lv */
