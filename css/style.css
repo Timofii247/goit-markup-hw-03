@@ -404,7 +404,7 @@ list-style: none;
 }
 
 .footer-logo{
-    font-family: 'Roboto', sans-serif;
+font-family: "Raleway", sans-serif;
     display: inline-block;
     margin-bottom: 16px;
     font-weight: 700;
@@ -434,7 +434,6 @@ padding-bottom: 100px;
 
 .footer-logo-accent
 {
-font-family: 'Roboto', sans-serif;
         color: #f4f4fd;
 }
 
