@@ -396,7 +396,7 @@ list-style: none;
 .portfolio-card{
     display: block;
     background-color: #fff;
-    margin-bottom: 48px;
+    /* margin-bottom: 48px; */
 }
 
 .footer{
